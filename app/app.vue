@@ -3,5 +3,6 @@
     <NuxtRouteAnnouncer />
     <Header />
     <Hero />
+    <Topics />
   </div>
 </template>

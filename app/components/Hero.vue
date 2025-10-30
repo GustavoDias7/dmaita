@@ -1,10 +1,10 @@
 <template>
 <main>
-    <div class="container max-w-6xl mx-auto">
+    <div class="container max-w-6xl mx-auto mb-12">
       <video autoplay muted loop>
         <source src="~assets/video/main-hero-image-dma.mp4" type="video/mp4">
       </video>
-      <div class="flex w-[800px] gap-8 mx-auto">
+      <div class="flex max-w-[800px] gap-8 mx-auto">
         <h1 class="text-xl font-bold text-right">
           TRASFORMA L'ESPERIENZA DEL SERVIZIO E LA SICUREZZA DEI <br> TUOI CLIENTI.
         </h1>
