@@ -4,5 +4,6 @@
     <Header />
     <Hero />
     <Topics />
+    <CTA />
   </div>
 </template>
