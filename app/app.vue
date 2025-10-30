@@ -5,5 +5,6 @@
     <Hero />
     <Topics />
     <CTA />
+    <CTA2 />
   </div>
 </template>
