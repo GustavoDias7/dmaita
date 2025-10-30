@@ -1,5 +1,5 @@
 <template>
-<header class="shadow-lg border border-cyan-500">
+<header class="border-b border-cyan-500">
     <div class="container max-w-6xl mx-auto min-h-18 h-24 bg-white flex items-center justify-between">
         <img src="~/assets/img/dma-logo.svg" alt="DMA logo">
         <nav class="self-end">
