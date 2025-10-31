@@ -9,5 +9,6 @@
     <Solutions />
     <Companies />
     <JustTalk />
+    <Award />
   </div>
 </template>
