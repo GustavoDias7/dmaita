@@ -7,5 +7,6 @@
     <CTA />
     <CTA2 />
     <Solutions />
+    <Companies />
   </div>
 </template>
