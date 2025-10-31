@@ -11,5 +11,6 @@
     <JustTalk />
     <Award />
     <Map />
+    <Footer />
   </div>
 </template>
