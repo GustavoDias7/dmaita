@@ -8,5 +8,6 @@
     <CTA2 />
     <Solutions />
     <Companies />
+    <JustTalk />
   </div>
 </template>
