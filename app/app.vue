@@ -6,5 +6,6 @@
     <Topics />
     <CTA />
     <CTA2 />
+    <Solutions />
   </div>
 </template>
