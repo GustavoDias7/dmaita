@@ -10,5 +10,6 @@
     <Companies />
     <JustTalk />
     <Award />
+    <Map />
   </div>
 </template>
