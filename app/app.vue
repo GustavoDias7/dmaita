@@ -5,6 +5,7 @@
     <Hero />
     <Topics />
     <CTA />
+    <CompanyLogos />
     <CTA2 />
     <Solutions />
     <Companies />

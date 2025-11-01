@@ -643,7 +643,7 @@
     unctx "^2.4.1"
     untyped "^2.0.0"
 
-"@nuxt/kit@^3.15.4", "@nuxt/kit@^3.19.3":
+"@nuxt/kit@^3.15.4", "@nuxt/kit@^3.17.2", "@nuxt/kit@^3.19.3":
   version "3.20.0"
   resolved "https://registry.yarnpkg.com/@nuxt/kit/-/kit-3.20.0.tgz#80e1e4621d0f0e09f32e405c2e98a2adeb6ea33b"
   integrity sha512-EoF1Gf0SPj9vxgAIcGEH+a4PRLC7Dwsy21K6f5+POzylT8DgssN8zL5pwXC+X7OcfzBrwYFh7mM7phvh7ubgeg==
@@ -3379,6 +3379,14 @@ nth-check@^2.0.1:
   dependencies:
     boolbase "^1.0.0"
 
+nuxt-swiper@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/nuxt-swiper/-/nuxt-swiper-2.0.1.tgz#6e05bea474bab8d7e866eaf40554943ce3348177"
+  integrity sha512-mUAzuGqQHcsqJa1p5y/Hafvurn62o6njHq8DcwQErourkpJpv7z/SnnT0ezXMr7YvDPNg22ayEKGdHkGXXOxMQ==
+  dependencies:
+    "@nuxt/kit" "^3.17.2"
+    swiper "^11.2.6"
+
 nuxt@^4.2.0:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/nuxt/-/nuxt-4.2.0.tgz#7e6a541eb36873c612db37a6660218ec34a0eca4"
@@ -4443,6 +4451,16 @@ svgo@^4.0.0:
     csso "^5.0.5"
     picocolors "^1.1.1"
     sax "^1.4.1"
+
+swiper@^11.2.6:
+  version "11.2.10"
+  resolved "https://registry.yarnpkg.com/swiper/-/swiper-11.2.10.tgz#ed0b17286b56f7fe8d4b46ed61e6e0bd8daaccad"
+  integrity sha512-RMeVUUjTQH+6N3ckimK93oxz6Sn5la4aDlgPzB+rBrG/smPdCTicXyhxa+woIpopz+jewEloiEE3lKo1h9w2YQ==
+
+swiper@^12.0.3:
+  version "12.0.3"
+  resolved "https://registry.yarnpkg.com/swiper/-/swiper-12.0.3.tgz#c7804fd39955189d3ec652d9832896bd3d04733e"
+  integrity sha512-BHd6U1VPEIksrXlyXjMmRWO0onmdNPaTAFduzqR3pgjvi7KfmUCAm/0cj49u2D7B0zNjMw02TSeXfinC1hDCXg==
 
 system-architecture@^0.1.0:
   version "0.1.0"
