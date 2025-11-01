@@ -1,6 +1,6 @@
 <template>
   <section id="just-talk">
-    <div class="container max-w-6xl mx-auto">
+    <div class="container md:max-w-6xl">
       <div class="flex gap-8 h-[768px]">
         <div class="self-end">
           <img class="block max-w-[563px] h-[700px]" src="~assets/img/woman-talking-on-phone.png"

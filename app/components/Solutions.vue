@@ -2,7 +2,7 @@
   <section
     style="background: linear-gradient(270deg, #661845 0.63%, #752A55 9.18%, #7A315B 17.56%, #7A315B 44.91%, #661845 98.89%);"
     class="text-white overflow-hidden">
-    <div class="container max-w-[862px] h-[985px] mx-auto pt-10 pb-20">
+    <div class="container md:max-w-6xl h-[985px] mx-auto pt-10 pb-20">
       <div class="max-w-[592px] mx-auto text-center">
         <h2 class="text-2xl leading-10 font-bold mb-2">SOLUZIONI</h2>
         <p class="text-base mb-6">
@@ -10,7 +10,7 @@
           soddisfazione e la protezione dei suoi clienti.
         </p>
       </div>
-      <nav>
+      <nav class="max-w-[862px] mx-auto">
         <div class="flex justify-center gap-6 border-b mb-6">
           <input class="hidden" type="radio" v-model="solutions" id="solution-1" :value="1"
             @change="() => handleOption(1)">

@@ -1,7 +1,7 @@
 <template>
   <section id="companies" class="h-[856px]">
-    <div class="bg-blue-500/[0.95]">
-      <div class="container mx-auto py-6">
+    <div class="bg-blue-800/[0.90]">
+      <div class="container md:max-w-6xl py-6">
         <h2 class="text-2xl text-white font-bold text-center">DMA è un nuovo modo di relazionarsi con le aziende!</h2>
       </div>
     </div>

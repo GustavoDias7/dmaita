@@ -1,6 +1,6 @@
 <template>
   <footer class="pt-12 pb-4 bg-cyan-500">
-    <div class="container mx-auto text-white">
+    <div class="container md:max-w-6xl text-white">
       <div class="flex justify-center mb-12 gap-28">
         <div>
           <img src="~assets/img/dma-logo-white.svg" alt="DMA">

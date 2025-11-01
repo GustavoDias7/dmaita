@@ -1,6 +1,6 @@
 <template>
   <section class="py-10">
-    <div class="container mx-auto text-center">
+    <div class="container md:max-w-6xl text-center">
       <h2 class="text-2xl font-bold mb-2 leading-10">DMA NEL MONDO</h2>
       <p class="text-base max-w-[592px] mx-auto mb-10">
         Siamo presenti in America Latina, Stati Uniti ed Europa.

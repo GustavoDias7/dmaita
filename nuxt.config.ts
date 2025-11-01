@@ -5,8 +5,47 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   app: {
     head: {
-      script: [{ src: 'https://cdn.tailwindcss.com', defer: true }],
     },
   },
-  modules: ['nuxt-swiper'],
+  modules: ['nuxt-swiper', '@nuxtjs/tailwindcss'],
+  tailwindcss: {
+    config: {
+      theme: {
+        extend: {
+          container: {
+            center: true,
+          },
+          
+          colors: {
+            white: '#ffffff',
+            black: '#000000',
+            cyan: {
+              500: '#2EA7AF',
+              600: '#237d83',
+            },
+            orange: {
+              500: '#E74A00'
+            },
+            lime: {
+              500: '#BCF132'
+            },
+            blue: {
+              800: '#001D85'
+            },
+            neutral: {
+              500: '#747678'
+            }
+          }
+        },
+        
+        screens: {
+          xs: '360px',
+          sm: '480px',
+          md: '768px',
+          lg: '982px',
+          xl: '1360px',
+        },
+      },
+    }
+  }
 })
