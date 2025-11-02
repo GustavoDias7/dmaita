@@ -14,6 +14,10 @@ export default defineNuxtConfig({
         extend: {
           container: {
             center: true,
+            padding: {
+              DEFAULT: '16px',
+              sm: '0px',
+            },
           },
           
           colors: {
