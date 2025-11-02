@@ -1,6 +1,6 @@
 <template>
   <section>
-    <div class="container md:max-w-6xl mb-10 text-center">
+    <div class="container mb-10 text-center">
       <h2 class="max-w-[592px] mx-auto text-base font-bold mb-8">
         La Comunità WeDMA è un modello vantaggioso per tutti. <br>
         Tutte le aziende contribuiscono e beneficiano del successo della Comunità. <br>
@@ -38,7 +38,7 @@
         </p>
       </div>
       <button
-        class="bg-orange-500 text-white hover:text-black font-bold px-14 h-12 rounded-full shadow-lg hover:bg-lime-400 transition duration-300">
+        class="bg-orange-500 text-white hover:text-black font-bold px-14 h-12 rounded-full shadow-lg hover:bg-lime-400 transition duration-200 ease-in-out">
         Unisciti a noi!
       </button>
     </div>

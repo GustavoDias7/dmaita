@@ -1,6 +1,6 @@
 <template>
   <section class="bg-neutral-500 py-10">
-    <div class="container md:max-w-6xl text-center text-white">
+    <div class="container text-center text-white">
       <h2 class="text-2xl font-bold mb-2 leading-10">PREMI</h2>
       <p class="text-base max-w-[492px] mx-auto">
         Molti casi dei nostri clienti ottengono riconoscimenti nazionali e

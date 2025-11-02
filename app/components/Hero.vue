@@ -1,6 +1,6 @@
 <template>
   <main>
-    <div class="container md:max-w-6xl mb-12">
+    <div class="container mb-12 pt-14 md:pt-16 lg:pt-24">
       <video autoplay muted loop class="mx-auto">
         <source src="~assets/video/main-hero-image-dma.mp4" type="video/mp4">
       </video>
