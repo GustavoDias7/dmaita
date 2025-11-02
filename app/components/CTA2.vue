@@ -1,29 +1,29 @@
 <template>
   <section>
-    <div class="container mb-10 text-center">
+    <div class="container pt-6 pb-10 text-center">
       <h2 class="max-w-[592px] mx-auto text-base font-bold mb-8">
         La Comunità WeDMA è un modello vantaggioso per tutti. <br>
         Tutte le aziende contribuiscono e beneficiano del successo della Comunità. <br>
         Per accedere all'esperienza delle soluzioni DMA, è sufficiente che il cliente finale abbia solo un'app di uno
         dei partecipanti alla Comunità, con i permessi appropriati, sul proprio smartphone.
       </h2>
-      <div class="flex gap-4 max-w-[872px] mx-auto mb-8 text-white">
-        <article class="flex items-center justify-center w-full h-44 p-6 bg-blue-800 rounded-2xl">
+      <div class="flex flex-col md:flex-row gap-4 max-w-[872px] mx-auto mb-8 text-white">
+        <article class="flex items-center justify-center w-full h-36 lg:h-44 p-4 lg:p-6 bg-blue-800 rounded-2xl">
           <div>
-            <h3 class="text-lg font-bold leading-[30px] text-3xl mb-3">+ 1 miliardo</h3>
-            <p class="leading-[30px]">di chiamate digitali</p>
+            <h3 class="text-2xl lg:text-3xl font-bold leading-[30px] mb-3">+ 1 miliardo</h3>
+            <p class="text-base leading-[30px]">di chiamate digitali</p>
           </div>
         </article>
-        <article class="flex items-center justify-center w-full h-44 p-6 bg-blue-800 rounded-2xl">
+        <article class="flex items-center justify-center w-full h-36 lg:h-44 p-4 lg:p-6 bg-blue-800 rounded-2xl">
           <div>
-            <h3 class="text-lg font-bold leading-[30px] text-3xl mb-1">+ 150 aziende</h3>
-            <p class="leading-[19px]">Presenti in oltre 120MM di smartphone in tutto il mondo</p>
+            <h3 class="text-2xl lg:text-3xl font-bold leading-[30px] mb-1">+ 150 aziende</h3>
+            <p class="text-base leading-[19px]">Presenti in oltre 120MM di smartphone in tutto il mondo</p>
           </div>
         </article>
-        <article class="flex items-center justify-center w-full h-44 p-6 bg-blue-800 rounded-2xl">
+        <article class="flex items-center justify-center w-full h-36 lg:h-44 p-4 lg:p-6 bg-blue-800 rounded-2xl">
           <div>
-            <h3 class="text-lg font-bold leading-[30px] text-3xl mb-3">106%</h3>
-            <p class="leading-[30px]">del coinvolgimento digitale</p>
+            <h3 class="text-2xl lg:text-3xl font-bold leading-[30px] mb-3">106%</h3>
+            <p class="text-base leading-[30px]">del coinvolgimento digitale</p>
           </div>
         </article>
       </div>
