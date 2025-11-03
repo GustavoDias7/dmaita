@@ -7,19 +7,22 @@
         <Swiper class="swiper-privacy max-w-[481px]" :modules="modules" :navigation="true" :breakpoints="breakpoints"
           :spaceBetween="20" :lazy="true">
           <SwiperSlide>
-            <a href="/">
+            <a
+              href="https://www.dialmyapp.com.br/app/privacidade-e-protecao-de-dados/acesso-a-informacao-titular-de-dados/">
               <img class="rounded-lg" src="~assets/img/Acesso-à-Informação_-Titular-de-Dados-thumbnail.jpg"
                 alt="Accesso alle informazioni - Interessato" loading="lazy">
             </a>
           </SwiperSlide>
           <SwiperSlide>
-            <a href="/">
+            <a
+              href="https://www.dialmyapp.com.br/app/privacidade-e-protecao-de-dados/politica-de-privacidade-de-dados/">
               <img class="rounded-lg" src="~assets/img/Política-de-Privacidade-de-Dados-thumbnail.jpg"
                 alt="Informativa sulla privacy dei dati" loading="lazy">
             </a>
           </SwiperSlide>
           <SwiperSlide>
-            <a href="/">
+            <a
+              href="https://www.dialmyapp.com.br/app/privacidade-e-protecao-de-dados/comunicacao-de-incidente-de-seguranca-com-dados-pessoais/">
               <img class="rounded-lg"
                 src="~assets/img/Comunicação-de-Incidente-de-Segurança-com-Dados-Pessoais-thumbnail.jpg"
                 alt="Segnalazione di incidenti di sicurezza che coinvolgono dati personali" loading="lazy">

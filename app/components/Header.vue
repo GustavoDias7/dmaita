@@ -1,5 +1,5 @@
 <template>
-    <header class="bg-white border-b border-cyan-500 fixed top-0 left-0 right-0 z-40">
+    <header class="bg-white border-b border-cyan-500 fixed top-0 left-0 right-0 z-40 shadow-lg">
         <div class="px-4 md:px-0 h-14 md:h-16 flex items-center justify-between md:justify-center gap-4 lg:gap-16
         transition-[height] duration-500 ease-in-out" :class="!isScroll() ? 'lg:h-18' : 'lg:h-24'">
             <a href="/" class="text-[0px]  md:block" :class="!isScroll() ? 'md:hidden' : 'md:block'">
@@ -12,9 +12,9 @@
                     <li><a href="#clients" class="header-link">Clienti</a></li>
                     <li><a href="#media" class="header-link">Media</a></li>
                     <li><a href="#award" class="header-link">Premi</a></li>
-                    <li><a href="#world" class="header-link">DMA nel Mondo</a></li>
-                    <li><a href="#contact" class="header-link">Contattaci</a></li>
-                    <li><a href="#map" class="header-link">Chi Siamo</a></li>
+                    <li><a href="#map" class="header-link">DMA nel Mondo</a></li>
+                    <li><a href="mailto:contato@dma4all.com" class="header-link">Contattaci</a></li>
+                    <li><a href="#" class="header-link">Chi Siamo</a></li>
                 </ul>
             </nav>
             <button class="menu-button" :class="menu ? 'open' : 'close'" @click="toggleMenu">Menu button</button>

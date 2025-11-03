@@ -1,5 +1,5 @@
 <template>
-  <section
+  <section id="solutions"
     style="background: linear-gradient(270deg, #661845 0.63%, #752A55 9.18%, #7A315B 17.56%, #7A315B 44.91%, #661845 98.89%);"
     class="text-white overflow-hidden">
     <div class="relative container md:h-[985px] mx-auto pt-10 pb-6 md:pb-20">
@@ -87,7 +87,7 @@
                     <ArrowRight />
                   </div>
                 </button>
-                <a href="/"
+                <a href="https://www.dialmyapp.com.br/fale-conosco"
                   class="hidden md:flex items-center justify-center w-fit h-12 px-8 md:px-14 mx-auto text-base text-black font-bold bg-lime-500 hover:bg-white rounded-full cursor-pointer transition-all duration-200 ease-in-out">
                   Voglio conoscere le soluzioni DMA
                 </a>
@@ -142,7 +142,7 @@
                     <ArrowRight />
                   </div>
                 </button>
-                <a href="/"
+                <a href="https://www.dialmyapp.com.br/fale-conosco"
                   class="flex items-center justify-center w-fit h-12 px-8 md:px-14 mx-auto text-base text-black font-bold bg-lime-500 hover:bg-white rounded-full cursor-pointer transition-all duration-200 ease-in-out">
                   Voglio conoscere le soluzioni DMA
                 </a>

@@ -1,5 +1,5 @@
 <template>
-  <section id="companies" class="h-[768px] md:h-[856px]">
+  <section id="clients" class="h-[768px] md:h-[856px]">
     <div class="bg-blue-800/[0.90]">
       <div class="container py-6">
         <h2 class="text-base sm:text-2xl text-white font-bold text-center">DMA è un nuovo modo di relazionarsi con le
@@ -10,7 +10,7 @@
 </template>
 
 <style>
-#companies {
+#clients {
   background-image: url("assets/img/bg-desktop.png");
   background-size: cover;
   background-position: center;
@@ -18,7 +18,7 @@
 }
 
 @media (max-width: 480px) {
-  #companies {
+  #clients {
     background-image: url("assets/img/bg-mobile.png");
   }
 }

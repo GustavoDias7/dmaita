@@ -4,7 +4,7 @@
     <Header />
     <Hero />
     <Topics />
-    <CTA />
+    <Community />
     <CompanyLogos />
     <CTA2 />
     <Solutions />

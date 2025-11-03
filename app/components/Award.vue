@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-neutral-500 pt-6 pb-0 sm:py-10">
+  <section class="bg-neutral-500 pt-6 pb-0 sm:py-10" id="award">
     <div class="container text-center text-white">
       <h2 class="text-2xl font-bold mb-2 leading-10">PREMI</h2>
       <p class="text-base max-w-[492px] mx-auto">

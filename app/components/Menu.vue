@@ -8,9 +8,9 @@
       <li><a href="#clients" class="menu-link" @click="closeMenu">Clienti</a></li>
       <li><a href="#media" class="menu-link" @click="closeMenu">Media</a></li>
       <li><a href="#award" class="menu-link" @click="closeMenu">Premi</a></li>
-      <li><a href="#world" class="menu-link" @click="closeMenu">DMA nel Mondo</a></li>
-      <li><a href="#contact" class="menu-link" @click="closeMenu">Contattaci</a></li>
-      <li><a href="#map" class="menu-link" @click="closeMenu">Chi Siamo</a></li>
+      <li><a href="#map" class="menu-link" @click="closeMenu">DMA nel Mondo</a></li>
+      <li><a href="mailto:contato@dma4all.com" class="menu-link" @click="closeMenu">Contattaci</a></li>
+      <li><a href="#" class="menu-link" @click="closeMenu">Chi Siamo</a></li>
     </ul>
   </aside>
 </template>

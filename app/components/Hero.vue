@@ -1,7 +1,7 @@
 <template>
   <main>
-    <div class="container mb-6 md:mb-12 pt-14 sm:pt-8 lg:pt-12">
-      <video autoplay muted loop class="mx-auto hidden sm:block sm:h-[185px] md:h-[294px] lg:h-[378px]">
+    <div class="container mb-6 md:mb-12 pt-14 sm:pt-8 lg:pt-12 xl:pt-0">
+      <video autoplay muted loop class="mx-auto hidden sm:block sm:h-[185px] md:h-[294px] lg:h-[378px] xl:h-[520px]">
         <source src="~assets/video/main-hero-image-dma.mp4" type="video/mp4">
       </video>
       <div class="banner"></div>
@@ -20,6 +20,12 @@
 </template>
 
 <style>
+a:hover,
+a:focus {
+  opacity: 0.9;
+  transition: opacity 200ms ease-in-out;
+}
+
 .banner {
   display: none;
 }
