@@ -1,8 +1,8 @@
 <template>
     <header class="bg-white border-b border-cyan-500 fixed top-0 left-0 right-0 z-40">
         <div class="px-4 md:px-0 h-14 md:h-16 flex items-center justify-between md:justify-center gap-4 lg:gap-16
-        transition-[height] duration-500 ease-in-out" :class="isScroll() ? 'lg:h-18' : 'lg:h-24'">
-            <a href="/" class="text-[0px]  md:block" :class="isScroll() ? 'md:hidden' : 'md:block'">
+        transition-[height] duration-500 ease-in-out" :class="!isScroll() ? 'lg:h-18' : 'lg:h-24'">
+            <a href="/" class="text-[0px]  md:block" :class="!isScroll() ? 'md:hidden' : 'md:block'">
                 <img class="header-logo w-28 lg:w-40 xl:w-[200px]" src="~/assets/img/dma-logo.svg" alt="DMA logo">
             </a>
             <nav class="self-end hidden md:block">
