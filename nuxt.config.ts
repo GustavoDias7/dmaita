@@ -38,7 +38,7 @@ export default defineNuxtConfig({
               800: '#001D85'
             },
             neutral: {
-              500: '#747678'
+              500: '#6F6F6F',
             }
           }
         },

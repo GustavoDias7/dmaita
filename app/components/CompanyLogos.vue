@@ -1,7 +1,7 @@
 <template>
   <ClientOnly>
-    <Swiper :modules="modules" :slidesPerView="'auto'" :spaceBetween="0" :speed="50000" :loop="true" :freeMode="false"
-      :autoplay="{
+    <Swiper class="swiper-logos" :modules="modules" :slidesPerView="'auto'" :spaceBetween="0" :speed="50000"
+      :loop="true" :freeMode="false" :autoplay="{
         delay: 0,
         disableOnInteraction: false,
       }">
@@ -16,16 +16,16 @@
 </template>
 
 <style lang="css">
-.swiper {
+.swiper-logos {
   pointer-events: none;
 }
 
-.swiper-slide {
+.swiper-logos .swiper-slide {
   width: 3235px !important;
   height: 240px;
 }
 
-.swiper-wrapper {
+.swiper-logos .swiper-wrapper {
   -webkit-transition-timing-function: linear !important;
   -o-transition-timing-function: linear !important;
   transition-timing-function: linear !important;

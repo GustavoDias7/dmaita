@@ -12,6 +12,7 @@
     <JustTalk />
     <Award />
     <Map />
+    <Privacy />
     <Footer />
   </div>
 </template>
