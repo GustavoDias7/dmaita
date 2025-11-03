@@ -26,6 +26,7 @@ export default defineNuxtConfig({
             cyan: {
               500: '#2EA7AF',
               600: '#237d83',
+              700: '#1b666bff',
             },
             orange: {
               500: '#E74A00'

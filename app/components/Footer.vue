@@ -43,10 +43,11 @@
           </ul>
         </div>
         <div class="flex flex-row sm:flex-col gap-2">
-          <a href="/"><img class="w-10 h-10" src="~assets/img/linkedin-icon-white.svg" alt="LinkedIn"></a>
           <!-- 
+            <a href="/"><img class="w-10 h-10" src="~assets/img/linkedin-icon-white.svg" alt="LinkedIn"></a>
           <a href="/"><img class="w-10 h-10" src="~assets/img/instagram-icon-white.svg" alt="Instagram"></a>
-          <a href="/"><img class="w-10 h-10" src="~assets/img/facebook-icon-white.svg" alt="Facebook"></a> -->
+          -->
+          <a href="/"><img class="w-10 h-10" src="~assets/img/facebook-icon-white.svg" alt="Facebook"></a>
         </div>
       </div>
       <p class="text-sm sm:text-base text-center">Tutti i diritti riservati – DMA Technology and Digital S.A.</p>
