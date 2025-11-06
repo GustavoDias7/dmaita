@@ -7,9 +7,9 @@
     <Community />
     <CompanyLogos />
     <CTA2 />
-    <Solutions />
+    <Solutions :option="option" :handleOption="handleOption" :solutions="solutions" />
     <Companies />
-    <JustTalk />
+    <JustTalk :handleOption="handleOption" />
     <Award />
     <Map />
     <Privacy />
@@ -17,7 +17,17 @@
   </div>
 </template>
 <script setup>
+import { ref } from 'vue'
 import logo from "assets/img/dma-logo.png";
+
+const option = ref(1);
+const solutions = ref(1);
+
+function handleOption(option1, solution1 = null) {
+  if (solution1 != null)
+    solutions.value = solution1;
+  option.value = option1;
+}
 
 useSeoMeta({
   // 🔹 Basic SEO

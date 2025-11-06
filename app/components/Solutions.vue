@@ -12,16 +12,12 @@
       </div>
       <nav class="max-w-[862px] mx-auto">
         <div class="flex justify-center gap-6 border-b mb-6">
-          <input class="hidden" type="radio" v-model="solutions" id="solution-1" :value="1"
-            @change="() => handleOption(1)">
-          <label
+          <button
             class="flex items-center h-12 px-6 pb-4 cursor-pointer hover:font-bold hover:border-b-4 hover:border-white hover:pb-4 transition-all duration-200 ease-in-out"
-            :class="handleSolution(1)" for="solution-1">Assistenza</label>
-          <input class="hidden" type="radio" v-model="solutions" id="solution-2" :value="2"
-            @change="() => handleOption(6)">
-          <label
+            :class="activeSolution(1)" @click="() => handleOption(1, 1)">Assistenza</button>
+          <button
             class="flex items-center h-12 px-6 pb-4 cursor-pointer hover:font-bold hover:border-b-4 hover:border-white hover:pb-4 transition-all duration-200 ease-in-out"
-            :class="handleSolution(2)" for="solution-2">Sicurezza</label>
+            :class="activeSolution(2)" @click="() => handleOption(6, 2)">Sicurezza</button>
         </div>
 
         <p class="text-base mb-6 text-center md:text-left">
@@ -150,13 +146,13 @@
             </div>
           </div>
 
-          <div class="relative md:w-[338px] mx-auto lg:mx-0">
+          <div class="relative md:w-[338px] mx-auto lg:mx-0" ref="videoContainer">
             <img class="hidden md:block absolute top-0 left-0 max-w-[505px] h-[736px] z-20"
               src="~assets/img/cell-mask.png" alt="cell-mask" />
             <template v-for="(asset, index) in assets">
-              <video v-if="asset.type === 'video/mp4'" autoplay muted loop
+              <video v-if="asset.type === 'video/mp4'" autoplay :muted="!handleSound(asset, index + 1)" loop
                 class="md:absolute h-[416px] md:h-auto w-[254px] mx-auto lg:mx-0 z-10 top-3.5 left-14"
-                :class="activeVideo(index + 1)" :src="asset.src" :type="asset.type">
+                :class="activeVideo(index + 1)" :src="asset.src" :type="asset.type" :id="asset.id">
               </video>
               <img v-else-if="asset.type === 'image'" :src="asset.src" alt=""
                 class="md:absolute h-[416px] md:h-auto w-[254px] mx-auto lg:mx-0 z-10 top-3.5 left-14"
@@ -307,7 +303,7 @@
 <script>
 import video1 from "assets/video/chiamata-digitale.mp4";
 import video2 from "assets/video/chiamata-brandizzata.mp4";
-import video3 from "assets/video/parla-e-basta.mp4";
+import video3 from "assets/video/just_talk_italy.mp4";
 import image4 from "assets/img/collegamento-sociale.png";
 import video5 from "assets/video/menu-qr-code.mp4";
 import video6 from "assets/video/chiamata-protetta.mp4";
@@ -318,45 +314,67 @@ import image9 from "assets/img/chiamata-sicura.png";
 export default {
   data() {
     return {
-      solutions: 1,
-      option: 1,
       maxOption: 9,
       assets: [
-        { src: video1, type: "video/mp4" },
-        { src: video2, type: "video/mp4" },
-        { src: video3, type: "video/mp4" },
-        { src: image4, type: "image" },
-        { src: video5, type: "video/mp4" },
-        { src: video6, type: "video/mp4" },
-        { src: video7, type: "video/mp4" },
-        { src: video8, type: "video/mp4" },
-        { src: image9, type: "image" },
+        { id: "option_1", src: video1, type: "video/mp4", sound: false, isMuted: true },
+        { id: "option_2", src: video2, type: "video/mp4", sound: false, isMuted: true },
+        { id: "option_3", src: video3, type: "video/mp4", sound: true, isMuted: true },
+        { id: "option_4", src: image4, type: "image" },
+        { id: "option_5", src: video5, type: "video/mp4", sound: false, isMuted: true },
+        { id: "option_6", src: video6, type: "video/mp4", sound: false, isMuted: true },
+        { id: "option_7", src: video7, type: "video/mp4", sound: false, isMuted: true },
+        { id: "option_8", src: video8, type: "video/mp4", sound: false, isMuted: true },
+        { id: "option_9", src: image9, type: "image" },
       ],
     }
   },
   methods: {
-    handleOption(id) {
-      this.option = id;
-    },
     active(id) {
       return id === this.option ? "active-option" : "";
     },
     activeVideo(id) {
       return id === this.option ? 'block' : 'hidden';
     },
-    handleSolution(id) {
+    activeSolution(id) {
       return this.solutions === id ? "font-bold border-b-4 border-white pb-3" : "";
     },
     prev() {
-      console.log(this.option);
-
       this.option = this.option === 1 ? this.maxOption : this.option - 1;
     },
     next() {
-      console.log(this.option);
-
       this.option = this.option === this.maxOption ? 1 : this.option + 1;
-    }
+    },
+    handleSound(asset, option_id) {
+      return asset.sound === true && asset.isMuted === false && option_id === this.option;
+    },
+    handleIntersection(entries) {
+      entries.forEach(entry => {
+        const video = entry.target.querySelector('video#option_3');
+        if (!video) return;
+
+        if (entry.isIntersecting) {
+          this.assets[2].isMuted = false;
+          video.play().catch(err => console.warn('Video play blocked:', err));
+        } else {
+          this.assets[2].isMuted = true;
+          video.pause();
+          video.currentTime = 0;
+        }
+      });
+    },
+
+    observeVideo() {
+      const observer = new IntersectionObserver(this.handleIntersection, {
+        threshold: 0.1, // 10% visible
+      });
+      const container = this.$refs.videoContainer;
+      if (container) observer.observe(container);
+    },
   },
+
+  mounted() {
+    this.observeVideo();
+  },
+  props: ['solutions', 'option', 'handleOption'],
 }
 </script>

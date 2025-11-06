@@ -16,7 +16,7 @@
             Una soluzione innovativa che trascende le barriere linguistiche, trasformando ogni interazione in una
             conversazione efficiente, con feedback vocali istantanei e conversione automatica da voce a testo.
           </p>
-          <a href="/"
+          <a href="#solutions" @click="() => handleOption(3, 1)"
             class="flex items-center justify-center w-fit h-12 px-14 text-base text-white hover:text-black font-bold bg-orange-500 hover:bg-lime-500 rounded-full cursor-pointer transition-all duration-200 ease-in-out">
             Guarda Just Talk in azione
           </a>
@@ -40,3 +40,9 @@
   }
 }
 </style>
+
+<script>
+export default {
+  props: ['handleOption'],
+}
+</script>
