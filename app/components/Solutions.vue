@@ -301,7 +301,7 @@
 </style>
 
 <script>
-import video1 from "assets/video/chiamata-digitale.mp4";
+import video1 from "assets/video/digital_call_italy.mp4";
 import video2 from "assets/video/chiamata-brandizzata.mp4";
 import video3 from "assets/video/just_talk_italy.mp4";
 import image4 from "assets/img/collegamento-sociale.png";
