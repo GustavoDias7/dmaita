@@ -42,7 +42,7 @@
             <div :class="solutions === 1 ? '' : 'md:hidden'" class="md:mb-6">
               <div class="max-w-[490px]">
                 <button class="solution-button" :class="active(1)" @click="() => handleOption(1)">
-                  <h3 class="solution-button-title">Chiamata Digitale</h3>
+                  <h3 class="solution-button-title">Digital Call</h3>
                   <div class="solution-button-description">
                     <p class="text-left max-w-[300px] lg:max-w-[335px]">Digitalizzazione della chiamata vocale
                       indirizzata al call center
@@ -53,7 +53,7 @@
                   </div>
                 </button>
                 <button class="solution-button" :class="active(2)" @click="() => handleOption(2)">
-                  <h3 class="solution-button-title">Chiamata Brandizzata</h3>
+                  <h3 class="solution-button-title">Branded Call</h3>
                   <div class="solution-button-description">
                     <p>Chiamata attiva identificata con logo
                       e nome
@@ -62,7 +62,7 @@
                   </div>
                 </button>
                 <button class="solution-button" :class="active(3)" @click="() => handleOption(3)">
-                  <h3 class="solution-button-title">Parla e basta</h3>
+                  <h3 class="solution-button-title">Just Talk</h3>
                   <div class="solution-button-description">
                     <p>Menu con interazione vocale tramite
                       Intelligenza
@@ -71,7 +71,7 @@
                   </div>
                 </button>
                 <button class="solution-button" :class="active(4)" @click="() => handleOption(4)">
-                  <h3 class="solution-button-title">Collegamento Sociale</h3>
+                  <h3 class="solution-button-title">Social Link</h3>
                   <div class="solution-button-description">
                     <p>Menu visivo che apre un link per l'uso
                       sui social
@@ -80,7 +80,7 @@
                   </div>
                 </button>
                 <button class="solution-button" :class="active(5)" @click="() => handleOption(5)">
-                  <h3 class="solution-button-title">Menu QR Code</h3>
+                  <h3 class="solution-button-title">QR Code Menu</h3>
                   <div class="solution-button-description">
                     <p>Opzione di canale self-service per
                       negozi fisici.</p>
@@ -98,7 +98,7 @@
             <div :class="solutions === 2 ? '' : 'md:hidden'" class="mb-6">
               <div class="max-w-[490px]">
                 <button class="solution-button" :class="active(6)" @click="() => handleOption(6)">
-                  <h3 class="solution-button-title">Chiamata Protetta</h3>
+                  <h3 class="solution-button-title">Protect Call</h3>
                   <div class="solution-button-description">
                     <p>Interrompe le chiamate da numeri
                       fraudolenti evitando
@@ -107,7 +107,7 @@
                   </div>
                 </button>
                 <button class="solution-button" :class="active(7)" @click="() => handleOption(7)">
-                  <h3 class="solution-button-title">Avviso Chiamata Protetta</h3>
+                  <h3 class="solution-button-title">Protect Call Alert</h3>
                   <div class="solution-button-description">
                     <p>Informa il cliente del rischio e offre
                       l'opzione di
@@ -119,7 +119,7 @@
                   </div>
                 </button>
                 <button class="solution-button" :class="active(8)" @click="() => handleOption(8)">
-                  <h3 class="solution-button-title">Messaggio Chiamata Protetta</h3>
+                  <h3 class="solution-button-title">Protect Call Message</h3>
                   <div class="solution-button-description">
                     <p>Impedisce all'utente di chiamare
                       numeri fraudolenti
@@ -131,7 +131,7 @@
                   </div>
                 </button>
                 <button class="solution-button" :class="active(9)" @click="() => handleOption(9)">
-                  <h3 class="solution-button-title">Chiamata Sicura</h3>
+                  <h3 class="solution-button-title">Safe Call</h3>
                   <div class="solution-button-description">
                     <p>Invia allo smartphone della persona in
                       chiamata una
