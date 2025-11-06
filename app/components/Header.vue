@@ -14,7 +14,8 @@
                     <li><a href="#award" class="header-link">Premi</a></li>
                     <li><a href="#map" class="header-link">DMA nel Mondo</a></li>
                     <li><a href="mailto:contato@dma4all.com" class="header-link">Contattaci</a></li>
-                    <li><a href="#" class="header-link">Chi Siamo</a></li>
+                    <li><a href="https://www.linkedin.com/company/dma4all/about/" class="header-link"
+                            target="_blank">Chi Siamo</a></li>
                 </ul>
             </nav>
             <button class="menu-button" :class="menu ? 'open' : 'close'" @click="toggleMenu">Menu button</button>

@@ -11,14 +11,14 @@
         <a href="https://www.dialmyapp.com.br/cadastre-se" target="_blank"
           class="flex items-center justify-center w-full h-36 lg:h-44 p-4 lg:p-6 bg-blue-800 rounded-2xl">
           <div>
-            <h3 class="text-2xl lg:text-3xl font-bold leading-[30px] mb-3">+ 1 miliardo</h3>
+            <h3 class="text-2xl lg:text-3xl font-bold leading-[30px] mb-3">+1,7 milhando</h3>
             <p class="text-base leading-[30px]">di chiamate digitali</p>
           </div>
         </a>
         <a href="https://www.dialmyapp.com.br/cadastre-se" target="_blank"
           class="flex items-center justify-center w-full h-36 lg:h-44 p-4 lg:p-6 bg-blue-800 rounded-2xl">
           <div>
-            <h3 class="text-2xl lg:text-3xl font-bold leading-[30px] mb-1">+ 150 aziende</h3>
+            <h3 class="text-2xl lg:text-3xl font-bold leading-[30px] mb-1">+170 aziende</h3>
             <p class="text-base leading-[19px]">Presenti in oltre 120MM di smartphone in tutto il mondo</p>
           </div>
         </a>

@@ -6,7 +6,7 @@
         Siamo presenti in America Latina, Stati Uniti ed Europa.
       </p>
       <img class="mx-auto mb-10" src="~assets/img/map.png" alt="DMA NEL MONDO">
-      <a href="/"
+      <a href="https://www.linkedin.com/company/dma4all/people/" target="_blank"
         class="flex items-center justify-center w-fit h-12 mx-auto px-14 text-base text-white hover:text-black font-bold bg-orange-500 hover:bg-lime-500 rounded-full cursor-pointer transition-all duration-200 ease-in-out">
         Incontra il nostro team
       </a>

@@ -83,7 +83,7 @@
                     <ArrowRight />
                   </div>
                 </button>
-                <a href="https://www.dialmyapp.com.br/fale-conosco"
+                <a href="mailto:contato@dma4all.com"
                   class="hidden md:flex items-center justify-center w-fit h-12 px-8 md:px-14 mx-auto text-base text-black font-bold bg-lime-500 hover:bg-white rounded-full cursor-pointer transition-all duration-200 ease-in-out">
                   Voglio conoscere le soluzioni DMA
                 </a>
@@ -138,7 +138,7 @@
                     <ArrowRight />
                   </div>
                 </button>
-                <a href="https://www.dialmyapp.com.br/fale-conosco"
+                <a href="mailto:contato@dma4all.com"
                   class="flex items-center justify-center w-fit h-12 px-8 md:px-14 mx-auto text-base text-black font-bold bg-lime-500 hover:bg-white rounded-full cursor-pointer transition-all duration-200 ease-in-out">
                   Voglio conoscere le soluzioni DMA
                 </a>
