@@ -11,7 +11,7 @@
 
 <style>
 #clients {
-  background-image: url("assets/img/bg-desktop.png");
+  background-image: url("assets/img/bg-desktop.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -19,7 +19,7 @@
 
 @media (max-width: 480px) {
   #clients {
-    background-image: url("assets/img/bg-mobile.png");
+    background-image: url("assets/img/bg-mobile.webp");
   }
 }
 </style>

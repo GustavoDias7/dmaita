@@ -4,28 +4,29 @@
       <h2 class="text-3xl font-bold leading-10 text-neutral-500 mb-12">PRIVACY E PROTEZIONE DEI DATI</h2>
 
       <ClientOnly>
-        <Swiper class="swiper-privacy max-w-[481px]" :modules="modules" :navigation="true" :breakpoints="breakpoints"
-          :spaceBetween="20" :lazy="true">
+        <Swiper class="swiper-privacy max-w-[648px]" :modules="modules" :breakpoints="breakpoints" :lazy="true"
+          :pagination="{ clickable: true }" :centeredSlides="false">
           <SwiperSlide>
-            <a
-              href="https://www.dialmyapp.com.br/app/privacidade-e-protecao-de-dados/acesso-a-informacao-titular-de-dados/">
-              <img class="rounded-lg" src="~assets/img/Acesso-à-Informação_-Titular-de-Dados-thumbnail.jpg"
-                alt="Accesso alle informazioni - Interessato" loading="lazy">
+            <a href="/pdf/codice-etico.pdf" target="_blank">
+              <img class="rounded-lg" src="~assets/img/codigo-de-conduta-etica.webp" alt="Codice Etico" loading="lazy">
             </a>
           </SwiperSlide>
           <SwiperSlide>
-            <a
-              href="https://www.dialmyapp.com.br/app/privacidade-e-protecao-de-dados/politica-de-privacidade-de-dados/">
-              <img class="rounded-lg" src="~assets/img/Política-de-Privacidade-de-Dados-thumbnail.jpg"
-                alt="Informativa sulla privacy dei dati" loading="lazy">
+            <a href="/pdf/politica-sulla-privacy.pdf" target="_blank">
+              <img class="rounded-lg" src="~assets/img/politica-de-privacidade-de-dados.webp"
+                alt="politica sulla privacy" loading="lazy">
             </a>
           </SwiperSlide>
           <SwiperSlide>
-            <a
-              href="https://www.dialmyapp.com.br/app/privacidade-e-protecao-de-dados/comunicacao-de-incidente-de-seguranca-com-dados-pessoais/">
-              <img class="rounded-lg"
-                src="~assets/img/Comunicação-de-Incidente-de-Segurança-com-Dados-Pessoais-thumbnail.jpg"
-                alt="Segnalazione di incidenti di sicurezza che coinvolgono dati personali" loading="lazy">
+            <a href="/pdf/politica-di-risposta-agli-incidenti.pdf" target="_blank">
+              <img class="rounded-lg" src="~assets/img/comunicacao-de-incidente-de-seguranca-com-dados-pessoais.webp"
+                alt="politica di risposta agli incidenti" loading="lazy">
+            </a>
+          </SwiperSlide>
+          <SwiperSlide>
+            <a href="/pdf/politica-di-responsabilita-sociale.pdf" target="_blank">
+              <img class="rounded-lg" src="~assets/img/politica-de-responsabilidade-social-ambiental-e-climatica.webp"
+                alt="politica di responsabilita sociale" loading="lazy">
             </a>
           </SwiperSlide>
         </Swiper>
@@ -37,6 +38,15 @@
 <style>
 .swiper-privacy {
   margin: 0px auto;
+  padding-bottom: 32px;
+}
+
+.swiper-privacy .swiper-pagination {
+  top: 210px;
+}
+
+.swiper-privacy .swiper-pagination-bullet-active {
+  background-color: #2EA7AF;
 }
 
 .swiper-privacy .swiper-slide {
@@ -48,8 +58,8 @@
 <script>
 // Import Swiper Vue.js components
 import { Swiper, SwiperSlide } from 'swiper/vue';
-import { Navigation } from 'swiper/modules';
-import 'swiper/css/navigation';
+import { Pagination } from 'swiper/modules';
+import 'swiper/css/pagination';
 
 
 export default {
@@ -59,7 +69,7 @@ export default {
   },
   setup() {
     return {
-      modules: [Navigation],
+      modules: [Pagination],
       breakpoints: {
         '1': {
           slidesPerView: 'auto',
@@ -72,9 +82,15 @@ export default {
           navigation: true,
         },
         '768': {
-          slidesPerView: 3,
+          slidesPerView: 4,
+          spaceBetween: 20,
           navigation: true,
         },
+        // '982': {
+        //   slidesPerView: 6,
+        //   spaceBetween: 20,
+        //   navigation: true,
+        // },
       }
     }
   }

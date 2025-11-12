@@ -21,7 +21,7 @@
                 Mondo</a></li>
             <li><a
                 class="text-xs md:text-sm lg:text-base flex items-center px-2 md:px-4 lg:px-8 h-12 bg-cyan-600 border-l-[3px] border-white"
-                href="https://www.linkedin.com/company/dma4all/about/">Chi
+                href="https://www.linkedin.com/company/dma4all/about/" target="_blank">Chi
                 Siamo</a></li>
           </ul>
           <ul>
